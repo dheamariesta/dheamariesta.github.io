@@ -3,9 +3,7 @@
 body{
   background-color: #00e2ac;
 }
-.landing-row{
-  height: 100vh;
-}
+
 #first-row{
 
   /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
@@ -118,15 +116,20 @@ li{
   margin-top: 30px;
   padding-bottom: 30px;
 }
-@media all and (max-width: 400px){
+@media (max-width: 400px) and (min-width: 100px){
   #first-row{
     height: 200px;
   }
   .landing-row{
-    height: 400px;
+    height: 200px;
   }
   .main-row-text{
     top: 15%;
     left: 35%;
+  }
+}
+@media (min-width: 600px){
+  .landing-row{
+    height: 100vh;
   }
 }
