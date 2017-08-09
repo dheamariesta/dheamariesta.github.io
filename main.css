@@ -40,6 +40,7 @@ body{
 }
 .dark-overlay{
   position: relative;
+  width: 50%;
   left: 40%;
   top: 30%;
 }
@@ -69,7 +70,7 @@ body{
 #white-description{
   /*color: white;*/
 }
-#portfolio-title{
+.portfolio-title{
   font-size: 60px;
   font-family: 'Abril Fatface', serif;
   text-align: center;
@@ -117,8 +118,10 @@ li{
 }
 
 .tile:hover{
-    background-color: rgba(229, 229, 229, .7);
+  background-color: rgba(229, 229, 229, .7);
 }
 .footer{
-  height: 100px;
+  /*height: 100px;*/
+  margin-top: 30px;
+  padding-bottom: 30px;
 }
