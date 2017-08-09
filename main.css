@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato');
 .landing-row{
   height: 100vh;
-
 }
 body{
   background-color: #00e2ac;
@@ -113,9 +112,6 @@ li{
   font-size: 16px;
   text-align: center;
 }
-.tile{
-
-}
 
 .tile:hover{
   background-color: rgba(229, 229, 229, .7);
@@ -124,4 +120,15 @@ li{
   /*height: 100px;*/
   margin-top: 30px;
   padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 500px){
+  .landing-row{
+    height: 40vh;
+  }
+  .main-row-text{
+    top: 15%;
+    left: 35%;
+
+  }
 }
