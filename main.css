@@ -1,21 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato');
-.landing-row{
-  height: 100vh;
-}
+
 body{
   background-color: #00e2ac;
 }
+.landing-row{
+  height: 100vh;
+}
 #first-row{
-  /*background-color: #a5ffe1;*/
-  /*background-image: url("./media/background.jpg");*/
-  background-size: cover;
-  background-position: center;
 
   /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);*/
 }
 .logo{
-  width: 30px;
+  height: 30px;
   margin: 0 15px 0 15px;
 }
 .image-block{
@@ -121,14 +118,15 @@ li{
   margin-top: 30px;
   padding-bottom: 30px;
 }
-
-@media only screen and (max-width: 500px){
+@media all and (max-width: 400px){
+  #first-row{
+    height: 200px;
+  }
   .landing-row{
-    height: 40vh;
+    height: 400px;
   }
   .main-row-text{
     top: 15%;
     left: 35%;
-
   }
 }
