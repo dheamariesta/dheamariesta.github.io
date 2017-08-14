@@ -120,7 +120,36 @@ li{
   margin-top: 30px;
   padding-bottom: 30px;
 }
+.source-code {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 10px;
+  background: #00995c;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  border: none;
+}
 
+.source-code:hover {
+  background: #04b36d;
+  text-decoration: none;
+}
+.demo-button {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 10px;
+  background: #6b6b6b;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  border: none;
+}
+.tile{
+  padding-top: 20px;
+}
+.demo-button:hover {
+  background: #949494;
+  text-decoration: none;
+}
 @media only screen
   and (max-width: 480px){
     /*#first-row{
