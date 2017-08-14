@@ -3,7 +3,9 @@
 body{
   background-color: #00e2ac;
 }
-
+.landing-row{
+  height: 100vh;
+}
 #first-row{
 
   /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
@@ -107,7 +109,9 @@ li{
   font-size: 16px;
   text-align: center;
 }
-
+.card-background{
+  background-color: white;
+}
 .tile:hover{
   background-color: rgba(229, 229, 229, .7);
 }
@@ -126,10 +130,5 @@ li{
   .main-row-text{
     top: 15%;
     left: 35%;
-  }
-}
-@media (min-width: 600px){
-  .landing-row{
-    height: 100vh;
   }
 }
