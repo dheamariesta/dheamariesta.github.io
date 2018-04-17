@@ -162,6 +162,25 @@ li{
   background: #949494;
   text-decoration: none;
 }
+
+.project-title{
+  font-family: 'Lato';
+  font-weight:600;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.project-photo{
+  /* height: 300px; */
+  width: 90%;
+}
+.project-description{
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 2;
+}
 @media only screen
   and (max-width: 480px){
     /*#first-row{
