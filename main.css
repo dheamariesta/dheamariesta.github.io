@@ -250,6 +250,31 @@ li{
     /*#first-row{
       height: 200px;
     }*/
+    .web-title{
+
+      font-size: 16px;
+    }
+    .modal-content {
+        /* background-color: #fefefe; */
+        /* margin: 15% auto;  */
+        /* 15% from the top and centered*/
+        padding: 20px;
+        border: 1px solid #888;
+        width: 90%; /* Could be more or less, depending on screen size */
+        font-family: 'Lato';
+        text-align: center;
+        font-weight: 300;
+        font-size: 14px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .modal-content > img{
+
+      width: 80%;
+    }
+    .grid-item { width: 100%; }
     .logo{
       height: 18px;
     }
