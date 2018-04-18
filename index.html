@@ -19,8 +19,10 @@
 
    <link rel="stylesheet" href="./main.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
   </head>
   <body>
+
     <div class="container">
 
       <!-- <div class="row my-own-navbar-row">
@@ -64,98 +66,79 @@
       <div class="row" >
 
         <h1 class="portfolio-title">Web Portfolio</h1>
-        <div class="row">
-          <div class="col-sm-3 col-xs-12 tile">
-
-              <a  target="_blank"  href="https://github.com/dheamariesta/dance-dance-revolution">
-                <img src="./media/ddr.png" align="middle"/>
-              </a>
-
-            <ul class="collapsible" data-collapsible="accordion">
-              <li>
-                <div class="collapsible-header"><i class="material-icons">library_music</i>Dance Dance Revolution</div>
-                <div class="collapsible-body card-background"><span>A simple HTML5 game inspired by the old school DDR arcade game.
-                <br/><br/>
-                Built using: HTML5, CSS3, Javascript, jQuery
-                <br/><br/>
-                <a target="_blank"  href="https://github.com/dheamariesta/dance-dance-revolution">
-                <button class="source-code">GitHub</button></a>
-                <a target="_blank"  href="http://www.dheamariesta.com/dance-dance-revolution/">
-                <button class="demo-button">Demo</button></a>
-
-              </span></div>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-sm-3 col-xs-12 tile">
-
-              <a   target="_blank" href="https://github.com/dheamariesta/ntumaps">
-                <img src="./media/ntu-maps.png" align="middle"/>
-              </a>
-
-            <ul class="collapsible" data-collapsible="accordion">
-              <li>
-                <div class="collapsible-header"><i class="material-icons">location_on</i>NTU Maps</div>
-                <div class="collapsible-body card-background"><span>A full stack web application, helping people to navigate around NTU Campus. Build on Node.js
-                <br/><br/>
-                <a target="_blank"  href="https://github.com/dheamariesta/ntumaps">
-                <button class="source-code">GitHub</button></a>
-                <a target="_blank"  href="https://mysterious-stream-76277.herokuapp.com/">
-                <button class="demo-button">Demo</button></a>
-              </span></div>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-sm-3 col-xs-12 tile">
-
-              <a  target="_blank"  href="https://github.com/dheamariesta/food-awesome">
-                <img src="./media/food-awesome.png" align="middle"/>
-              </a>
-
-            <ul class="collapsible" data-collapsible="accordion">
-              <li>
-                <div class="collapsible-header"><i class="material-icons">rate_review</i>Food Awesome</div>
-                <div class="collapsible-body card-background"><span>A food review
-                site built using the MERN
-                (MongoDB, Express, React,
-                Node) stack. User can add reviews and vote reviews. They can also rate the restaurant using star system.
-                <br/><br/>
-                <a target="_blank"  href="https://github.com/dheamariesta/food-awesome">
-                <button class="source-code">GitHub</button></a>
-                <a target="_blank"  href="http://www.food-awesome.review/">
-                <button class="demo-button">Demo</button></a>
-              </span></div>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-sm-3 col-xs-12 tile">
-
-              <a   target="_blank" href="https://github.com/jmhs/listtr">
-                <img src="./media/Listtr.png" align="middle"/>
-              </a>
 
 
-            <ul class="collapsible" data-collapsible="accordion">
-              <li>
-                <div class="collapsible-header"><i class="material-icons">format_list_bulleted</i>Listtr</div>
-                <div class="collapsible-body card-background"><span>Guest list made easy. The problem of having to flip through pages of guest lists in events makes us realise that it is possible to just to live registration online.
-                  <br/>
+      </div>
 
-                <br/>Built using MERN and
-                Socket.io
-                <br/><br/>
-                <a target="_blank"  href="https://github.com/jmhs/listtr">
-                <button class="source-code">GitHub</button></a>
-                <a target="_blank"  href="https://13.229.53.198/">
-                <button class="demo-button">Demo</button></a>
-              </span></div>
-              </li>
-            </ul>
+      <div class="grid">
+        <div class="grid-item">
+          <img src="./media/dance-dance-revolution.gif" id="dance-dance-revolution-gif"/>
+          <div id="modal-one" class="my-modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+
+              <img src="./media/dance-dance-revolution.gif" />
+
+              <span class="web-title">dance dance revolution</span>
+              <p>A simple HTML5 game inspired by the old school DDR arcade game.
+              <br/>
+              Built using: HTML5, CSS3, Javascript, jQuery</p>
+
+              <a target="_blank"  href="https://github.com/dheamariesta/dance-dance-revolution">
+              <button class="source-code">GitHub</button></a>
+              <a target="_blank"  href="http://www.dheamariesta.com/dance-dance-revolution/">
+              <button class="demo-button">Demo</button></a>
+            </div>
+
           </div>
         </div>
+        <div class="grid-item">
+          <img src="./media/ntu-maps-mockup.jpg" id="ntu-maps-jpg"/>
+          <div id="modal-two" class="my-modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+
+              <img src="./media/ntu-maps-mockup.jpg"/>
+
+              <span class="web-title">ntu maps</span>
+              <p>A full stack web application, helping people to navigate around NTU Campus. Build on Node.js
+              </p>
+
+              <a target="_blank"  href="https://github.com/dheamariesta/ntumaps">
+              <button class="source-code">GitHub</button></a>
+              <a target="_blank"  href="https://mysterious-stream-76277.herokuapp.com/">
+              <button class="demo-button">Demo</button></a>
+            </div>
+
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="./media/food-awesome-mockup.jpg" id="food-awesome-jpg"/>
+          <div id="modal-three" class="my-modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+
+              <img src="./media/food-awesome-mockup.jpg"/>
+
+              <span class="web-title">food awesome</span>
+              <p>A food review site built using the MERN (MongoDB, Express, React, Node) stack. User can add reviews and vote reviews. They can also rate the restaurant using star system.
+              </p>
+
+              <a target="_blank"  href="https://github.com/dheamariesta/food-awesome">
+              <button class="source-code">GitHub</button></a>
+              <a target="_blank"  href="http://www.food-awesome.review/">
+              <button class="demo-button">Demo</button></a>
+            </div>
+
+          </div>
+        </div>
+
 
       </div>
       <div class="row">
@@ -222,5 +205,6 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
