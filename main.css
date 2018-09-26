@@ -6,7 +6,10 @@ body{
 }
 .landing-row{
   height: 100vh;
+  display: flex;
+  align-items: center;
 }
+
 #first-row{
 
   /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
@@ -16,8 +19,8 @@ a:hover{
   text-decoration: none;
 }
 .logo{
-  height: 35px;
-  margin: 0 15px 0 15px;
+  /* height: 100px; */
+  /* margin: 0 15px 0 15px; */
   color: black;
 }
 .image-block{
@@ -62,14 +65,16 @@ a:hover{
   font-size: 70px;
   font-weight: 100;
   /*width: 500px;*/
-  text-align: left;
+  /* text-align: left; */
 }
 .main-row-text{
-  position: absolute;
-  top: 30%;
-  left: 30%;
-  margin-left: -300px;
-  margin-top: -35px;
+  /* position: absolute; */
+  /* top: 30%; */
+  /* left: 30%; */
+  /* margin-left: -300px; */
+  /* margin-top: -35px; */
+  margin: auto auto;
+  text-align: center;
 }
 #white-description{
   /*color: white;*/
