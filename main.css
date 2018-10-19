@@ -146,7 +146,9 @@ li{
   text-decoration: none;
   border: none;
 }
-
+#sg-mortgage{
+  width: 100%;
+}
 .source-code:hover {
   background: #04b36d;
   text-decoration: none;
