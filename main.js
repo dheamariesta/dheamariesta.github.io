@@ -30,6 +30,7 @@ ntuMapsJpg.onclick = function(){
 foodAwesomeJpg.onclick = function(){
   modalThree.style.display = "block";
 };
+
 spanOne.onclick = function() {
     modalOne.style.display = "none";
 
@@ -43,6 +44,7 @@ spanThree.onclick = function() {
 
 };
 
+
 window.onclick = function(event) {
     if (event.target == modalOne) {
         modalOne.style.display = "none";
@@ -53,4 +55,5 @@ window.onclick = function(event) {
     if (event.target == modalThree) {
         modalThree.style.display = "none";
     }
+
 }
